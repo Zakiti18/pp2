@@ -38,6 +38,10 @@ error_reporting(E_ALL);
         $removedDuplicates = removeDups($numbers);
         $removedDuplicates = implode(', ', $removedDuplicates);
         echo "<p>Removed Duplicates: [$removedDuplicates]</p>";
+
+        $distributed = distribution($numbers);
+        $distributed = implode(", ", $distributed);
+        echo "<p>Distribution: [$distributed]</p>";
     ?>
 </body>
 </html>

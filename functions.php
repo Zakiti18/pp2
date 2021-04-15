@@ -21,3 +21,15 @@ function removeDups($anArray){
 
     return $compareArray;
 }
+
+function distribution($anArray){
+    sort($anArray);
+    $anArray = array_count_values($anArray);
+
+    $designerArray = array();
+    foreach ($anArray as $key => $value){
+        array_push($designerArray, "$key => $value");
+    }
+
+    return $designerArray;
+}
