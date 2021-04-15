@@ -23,5 +23,8 @@ error_reporting(E_ALL);
 </head>
 <body>
     <h1>Pair Program 2</h1>
+    <?php
+        echo "<p>PHP Array Practice.</p>";
+    ?>
 </body>
 </html>
