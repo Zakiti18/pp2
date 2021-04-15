@@ -1,3 +1,17 @@
+<?php
+
+// Turn on error reporting
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+/*
+ * Phillip Ball
+ * 04/15/2021
+ * https://philball.greenriverdev.com/328/pp2
+ * Pair Program 2
+ */
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
