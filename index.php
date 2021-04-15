@@ -26,13 +26,9 @@ error_reporting(E_ALL);
     <?php
         echo "<p>PHP Array Practice.</p>";
 
-        $numbers = array(7, 9, 8, 9, 8, 8, 6);
+        include ("functions.php");
 
-        function printArr($anArray){
-            foreach ($anArray as $anElement){
-                echo "<p>$anElement</p>";
-            }
-        }
+        $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
         printArr($numbers);
     ?>
