@@ -25,6 +25,16 @@ error_reporting(E_ALL);
     <h1>Pair Program 2</h1>
     <?php
         echo "<p>PHP Array Practice.</p>";
+
+        $numbers = array(7, 9, 8, 9, 8, 8, 6);
+
+        function printArr($anArray){
+            foreach ($anArray as $anElement){
+                echo "<p>$anElement</p>";
+            }
+        }
+
+        printArr($numbers);
     ?>
 </body>
 </html>
