@@ -5,3 +5,7 @@ function printArr($anArray){
         echo "<p>$anElement</p>";
     }
 }
+
+function largest($anArray){
+    return max($anArray);
+}
