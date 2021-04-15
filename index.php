@@ -34,6 +34,10 @@ error_reporting(E_ALL);
 
         $largestNum = largest($numbers);
         echo "<p>The largest value is: $largestNum</p>";
+
+        $removedDuplicates = removeDups($numbers);
+        $removedDuplicates = implode(', ', $removedDuplicates);
+        echo "<p>Removed Duplicates: [$removedDuplicates]</p>";
     ?>
 </body>
 </html>
